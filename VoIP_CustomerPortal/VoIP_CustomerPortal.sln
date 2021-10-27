@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA941240-FE58-48D5-A5BD-18A28B210B95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A58C7B9A-E3D1-47AD-BAC1-A9CAB4733A9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2E806C4F-EA64-4556-A43D-C2D00DB20E60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C6CC12D2-63CD-41F5-B44A-478C528F14C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4BCDED7E-6F03-469C-A27C-BB1C74EE3597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.Api", "src\API\VoIP_CustomerPortal.Api\VoIP_CustomerPortal.Api.csproj", "{3C1C786E-C37F-484A-8615-8496C9C877A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.Application", "src\Core\VoIP_CustomerPortal.Application\VoIP_CustomerPortal.Application.csproj", "{1F4B8ADA-EE13-494F-B243-1D05C7FD3346}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.Domain", "src\Core\VoIP_CustomerPortal.Domain\VoIP_CustomerPortal.Domain.csproj", "{0BA0E820-ECF8-4AFC-A19D-BBF975DF3544}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.Identity", "src\Infrastructure\VoIP_CustomerPortal.Identity\VoIP_CustomerPortal.Identity.csproj", "{C6CA9467-6945-42DF-BA85-D709363AA363}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.Infrastructure", "src\Infrastructure\VoIP_CustomerPortal.Infrastructure\VoIP_CustomerPortal.Infrastructure.csproj", "{78F28299-7D03-405F-85E2-15893805FEC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.Persistence", "src\Infrastructure\VoIP_CustomerPortal.Persistence\VoIP_CustomerPortal.Persistence.csproj", "{171C9E64-39B7-4C89-A17F-C34811D75C52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.API.IntegrationTests", "test\VoIP_CustomerPortal.API.IntegrationTests\VoIP_CustomerPortal.API.IntegrationTests.csproj", "{7BBB1776-3276-4275-BD0F-15D8DC9BC1AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.Application.UnitTests", "test\VoIP_CustomerPortal.Application.UnitTests\VoIP_CustomerPortal.Application.UnitTests.csproj", "{A86E5BA6-B437-42DB-9C04-5CC47AEA1B8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoIP_CustomerPortal.Persistence.IntegrationTests", "test\VoIP_CustomerPortal.Persistence.IntegrationTests\VoIP_CustomerPortal.Persistence.IntegrationTests.csproj", "{85BC2434-E67E-4700-95A1-BBEE361D27B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{E21A9975-A5E3-4D9C-9999-6BE1A0781C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoIP_Application", "VoIP_Application\VoIP_Application.csproj", "{00F5114B-1C6C-4994-915A-EA872BEFA998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C1C786E-C37F-484A-8615-8496C9C877A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1C786E-C37F-484A-8615-8496C9C877A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1C786E-C37F-484A-8615-8496C9C877A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1C786E-C37F-484A-8615-8496C9C877A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4B8ADA-EE13-494F-B243-1D05C7FD3346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4B8ADA-EE13-494F-B243-1D05C7FD3346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4B8ADA-EE13-494F-B243-1D05C7FD3346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4B8ADA-EE13-494F-B243-1D05C7FD3346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA0E820-ECF8-4AFC-A19D-BBF975DF3544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA0E820-ECF8-4AFC-A19D-BBF975DF3544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA0E820-ECF8-4AFC-A19D-BBF975DF3544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA0E820-ECF8-4AFC-A19D-BBF975DF3544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CA9467-6945-42DF-BA85-D709363AA363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CA9467-6945-42DF-BA85-D709363AA363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CA9467-6945-42DF-BA85-D709363AA363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CA9467-6945-42DF-BA85-D709363AA363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F28299-7D03-405F-85E2-15893805FEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F28299-7D03-405F-85E2-15893805FEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F28299-7D03-405F-85E2-15893805FEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F28299-7D03-405F-85E2-15893805FEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171C9E64-39B7-4C89-A17F-C34811D75C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171C9E64-39B7-4C89-A17F-C34811D75C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171C9E64-39B7-4C89-A17F-C34811D75C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171C9E64-39B7-4C89-A17F-C34811D75C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBB1776-3276-4275-BD0F-15D8DC9BC1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBB1776-3276-4275-BD0F-15D8DC9BC1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBB1776-3276-4275-BD0F-15D8DC9BC1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBB1776-3276-4275-BD0F-15D8DC9BC1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86E5BA6-B437-42DB-9C04-5CC47AEA1B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86E5BA6-B437-42DB-9C04-5CC47AEA1B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86E5BA6-B437-42DB-9C04-5CC47AEA1B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86E5BA6-B437-42DB-9C04-5CC47AEA1B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85BC2434-E67E-4700-95A1-BBEE361D27B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85BC2434-E67E-4700-95A1-BBEE361D27B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85BC2434-E67E-4700-95A1-BBEE361D27B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85BC2434-E67E-4700-95A1-BBEE361D27B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F5114B-1C6C-4994-915A-EA872BEFA998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F5114B-1C6C-4994-915A-EA872BEFA998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F5114B-1C6C-4994-915A-EA872BEFA998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F5114B-1C6C-4994-915A-EA872BEFA998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A58C7B9A-E3D1-47AD-BAC1-A9CAB4733A9A} = {BA941240-FE58-48D5-A5BD-18A28B210B95}
+		{2E806C4F-EA64-4556-A43D-C2D00DB20E60} = {BA941240-FE58-48D5-A5BD-18A28B210B95}
+		{C6CC12D2-63CD-41F5-B44A-478C528F14C7} = {BA941240-FE58-48D5-A5BD-18A28B210B95}
+		{3C1C786E-C37F-484A-8615-8496C9C877A3} = {A58C7B9A-E3D1-47AD-BAC1-A9CAB4733A9A}
+		{1F4B8ADA-EE13-494F-B243-1D05C7FD3346} = {2E806C4F-EA64-4556-A43D-C2D00DB20E60}
+		{0BA0E820-ECF8-4AFC-A19D-BBF975DF3544} = {2E806C4F-EA64-4556-A43D-C2D00DB20E60}
+		{C6CA9467-6945-42DF-BA85-D709363AA363} = {C6CC12D2-63CD-41F5-B44A-478C528F14C7}
+		{78F28299-7D03-405F-85E2-15893805FEC8} = {C6CC12D2-63CD-41F5-B44A-478C528F14C7}
+		{171C9E64-39B7-4C89-A17F-C34811D75C52} = {C6CC12D2-63CD-41F5-B44A-478C528F14C7}
+		{7BBB1776-3276-4275-BD0F-15D8DC9BC1AB} = {4BCDED7E-6F03-469C-A27C-BB1C74EE3597}
+		{A86E5BA6-B437-42DB-9C04-5CC47AEA1B8C} = {4BCDED7E-6F03-469C-A27C-BB1C74EE3597}
+		{85BC2434-E67E-4700-95A1-BBEE361D27B3} = {4BCDED7E-6F03-469C-A27C-BB1C74EE3597}
+		{E21A9975-A5E3-4D9C-9999-6BE1A0781C93} = {BA941240-FE58-48D5-A5BD-18A28B210B95}
+		{00F5114B-1C6C-4994-915A-EA872BEFA998} = {E21A9975-A5E3-4D9C-9999-6BE1A0781C93}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FAEC687-B73C-4503-A502-D686B3F44DE9}
+	EndGlobalSection
+EndGlobal

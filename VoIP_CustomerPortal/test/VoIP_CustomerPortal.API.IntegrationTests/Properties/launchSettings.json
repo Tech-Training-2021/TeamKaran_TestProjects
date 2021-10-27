@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "VoIP_CustomerPortal.API.IntegrationTests": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
